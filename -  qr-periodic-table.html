@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bảng tuần hoàn QR</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .table {
+      display: grid;
+      grid-template-columns: repeat(18, 1fr);
+      gap: 8px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .element {
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 12px;
+    }
+    .element img {
+      width: 80px;
+      height: 80px;
+      margin-top: 5px;
+    }
+    .empty {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bảng tuần hoàn số (20 nguyên tố đầu tiên)</h1>
+  <div class="table">
+    <!-- H -->
+    <div class="element">
+      <strong>1 - H</strong>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/hydrogen.html">
+    </div>
+    <!-- 16 ô trống -->
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <!-- He -->
+    <div class="element">
+      <strong>2 - He</strong>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/helium.html">
+    </div>
 
+    <!-- Hàng 2 -->
+    <div class="element"><strong>3 - Li</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/lithium.html"></div>
+    <div class="element"><strong>4 - Be</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/beryllium.html"></div>
+    <!-- 10 ô trống -->
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <!-- B đến Ne -->
+    <div class="element"><strong>5 - B</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/boron.html"></div>
+    <div class="element"><strong>6 - C</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/carbon.html"></div>
+    <div class="element"><strong>7 - N</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/nitrogen.html"></div>
+    <div class="element"><strong>8 - O</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/oxygen.html"></div>
+    <div class="element"><strong>9 - F</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/fluorine.html"></div>
+    <div class="element"><strong>10 - Ne</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/neon.html"></div>
+
+    <!-- Hàng 3 -->
+    <div class="element"><strong>11 - Na</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/sodium.html"></div>
+    <div class="element"><strong>12 - Mg</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/magnesium.html"></div>
+    <!-- 10 ô trống -->
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div><div class="empty"></div>
+    <!-- Al đến Ar -->
+    <div class="element"><strong>13 - Al</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/aluminium.html"></div>
+    <div class="element"><strong>14 - Si</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/silicon.html"></div>
+    <div class="element"><strong>15 - P</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/phosphorus.html"></div>
+    <div class="element"><strong>16 - S</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/sulfur.html"></div>
+    <div class="element"><strong>17 - Cl</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/chlorine.html"></div>
+    <div class="element"><strong>18 - Ar</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/argon.html"></div>
+
+    <!-- Hàng 4 -->
+    <div class="element"><strong>19 - K</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/potassium.html"></div>
+    <div class="element"><strong>20 - Ca</strong><img src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://duymoi.github.io/elements/calcium.html"></div>
+  </div>
+</body>
+</html>
