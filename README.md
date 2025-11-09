@@ -1,1 +1,1 @@
-# duymoi.github.io
+# duymoi.github.io/periodic-table
